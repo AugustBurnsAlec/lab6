@@ -29,7 +29,7 @@ void drawBox(int x, int y)
     r.bot = 50;
     r.left = 50;
     r.center = 0;
-    ggprint8b(&r, 16, 0x00ffff00, "Alec Sherlock");
+    ggprint8b(&r, 16, 0x00fffff0, "Alec Sherlock");
     glPopMatrix();
 
 
